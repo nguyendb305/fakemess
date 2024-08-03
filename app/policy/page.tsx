@@ -2,7 +2,7 @@
 import Navbar from "@/components/sections/navbar";
 import { useLocale, useTranslations } from "next-intl";
 
-function page() {
+const PolicyPage = () => {
   const t = useTranslations("Policy");
   const locale = useLocale();
   return (
@@ -36,6 +36,6 @@ function page() {
       </div>
     </main>
   );
-}
+};
 
-export default page;
+export default PolicyPage;

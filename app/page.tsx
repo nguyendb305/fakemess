@@ -13,6 +13,7 @@ import { IoCopyOutline } from "react-icons/io5";
 import { MdOutlineFileDownload } from "react-icons/md";
 import Navbar from "@/components/sections/navbar";
 import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
 
 const Home = () => {
   const [messages, setMessages] = useState([
@@ -184,7 +185,7 @@ const Home = () => {
                       }`}
                     >
                       {message.role === "chatgpt" && (
-                        <img
+                        <Image
                           src={getAvatarSrc()}
                           alt="ChatGPT Avatar"
                           className="w-8 h-8 mr-2"
