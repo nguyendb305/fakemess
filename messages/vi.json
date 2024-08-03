@@ -1,0 +1,50 @@
+{
+  "Footer": {
+    "policy": "Chính sách sử dụng"
+  },
+  "HomePage": {
+    "title": "FakeGPT",
+    "description": "Công cụ miễn phí tạo tin nhắn ChatGPT giả. Vui lòng đọc kỹ chính sách sử dụng trước khi dùng.",
+    "table1": {
+      "input": "Sửa",
+      "description": "Thêm nội dung tin nhắn và câu trả lời của ChatGPT",
+      "message": "Tin nhắn",
+      "addmsg": "Thêm tin nhắn"
+    },
+    "table2": {
+      "output": "Kết quả",
+      "messagePlaceholder": "Tin nhắn",
+      "guide": "Bạn có thể Tải ảnh về hoặc Sao chép vào bộ nhớ tạm",
+      "downloadBtn": "Tải ảnh",
+      "copyBtn": "Copy",
+      "copyMsg": "Đã sao chép"
+    }
+  },
+  "LocaleSwitcher": {
+    "vi": "Tiếng Việt",
+    "en": "English",
+    "label": "Ngôn ngữ"
+  },
+  "Policy": {
+    "title": "Chính sách",
+    "intro": "Trình tạo FakeGPT",
+    "introContent1": "Trình tạo bài đăng giả ChatGPT là một công cụ trực tuyến có thể được sử dụng để tạo ra một bài đăng giả ChatGPT. Đây là một công cụ miễn phí, đơn giản và dễ sử dụng mà bất kỳ ai cũng có thể sử dụng để tạo ra bài đăng giả ChatGPT của riêng mình.",
+    "introContent2": "Trình tạo bài đăng giả ChatGPT là một ứng dụng web có thể tạo ra các bài đăng trông thực tế chỉ trong vài phút. Nó cho phép bạn tạo ra một bài đăng với bất kỳ số lượt thích, bình luận và thẻ nào.",
+    "usage": "Chính sách Sử dụng",
+    "usageContent": "Chúng tôi KHÔNG chịu trách nhiệm về các hình ảnh được tạo ra bởi người dùng. Bằng cách sử dụng Trình tạo bài đăng giả ChatGPT của chúng tôi, bạn đồng ý sử dụng công cụ của chúng tôi một cách hợp pháp và đạo đức, và tuân theo các quy tắc này",
+    "usageLi1": "Bạn không sử dụng hình ảnh ChatGPT được tạo ra với ý định xấu; chẳng hạn như quấy rối, tấn công, kích động bạo lực, lên án, đe dọa, làm mất uy tín hoặc gây tổn hại cho người khác hoặc tổ chức.",
+    "usageLi2": "Bạn không sử dụng hình ảnh ChatGPT giả tạo để lan truyền thông tin sai lệch có thể ảnh hưởng tiêu cực đến cuộc sống con người.",
+    "usageLi3": "Bạn không sử dụng hình ảnh ChatGPT được tạo ra làm bất kỳ loại bằng chứng nào (ngoại trừ trường hợp lạm dụng FakeGPT).",
+    "usageLi4": "Bạn không trình bày hình ảnh ChatGPT giả tạo như là sự thật. Như đã mô tả, mục đích chính là để vui vẻ bằng cách trêu chọc mọi người, không phải để gây hiểu lầm cho họ.",
+    "usageLi5": "Bạn làm rõ cho bất kỳ người xem nào rằng các hình ảnh ChatGPT giả tạo không phải là thật/gốc.",
+    "aboutChatGPT": "ChatGPT là gì?",
+    "ChatGPTcontent": "ChatGPT là một mô hình ngôn ngữ tiên tiến được phát triển bởi OpenAI, được xây dựng trên kiến trúc GPT (Generative Pre-trained Transformer). Nó được thiết kế để hiểu và tạo ra văn bản giống như con người, cho phép nó hỗ trợ với nhiều tác vụ khác nhau như trả lời câu hỏi, soạn thảo email, viết tiểu luận và tham gia vào các cuộc hội thoại. Sử dụng lượng dữ liệu khổng lồ, ChatGPT có thể cung cấp các phản hồi mạch lạc và phù hợp với ngữ cảnh, khiến nó trở thành một công cụ mạnh mẽ cho giao tiếp, sáng tạo và tìm kiếm thông tin.",
+    "benefit": "Bạn có thể làm gì với Trình tạo FakeGPT?",
+    "benefitLi1": "Nó giúp tạo ra mẫu bài đăng giả ChatGPT bằng cách nhập tất cả các chi tiết cần thiết như tên người dùng ChatGPT, vị trí, hình ảnh, nội dung văn bản, thời gian đăng, số lượng hình ảnh, v.v.",
+    "benefitLi2": "Công cụ này cung cấp khả năng thêm hình ảnh vào hồ sơ và cũng thêm hình ảnh vào nội dung bài đăng giả ChatGPT. Người dùng có thể tạo bài đăng với biểu tượng của tài khoản đã xác minh.",
+    "benefitLi3": "Công cụ này có thể được sử dụng để vui chơi, tạo bài đăng ChatGPT và hoạt động như một trình tạo bài đăng ChatGPT giả hoặc trình tạo bài đăng ChatGPT spam.",
+    "benefitLi4": "Công cụ làm bài đăng giả ChatGPT trực tuyến hoạt động tốt trên Windows, MAC, Linux, Chrome, Firefox, Edge và Safari.",
+    "howTo": "Làm thế nào để tạo bài đăng giả ChatGPT?",
+    "howToContent": "Mở FakeGPT trong trình duyệt yêu thích của bạn và cập nhật các trường nội dung và nhiều mục khác từ phía bên trái của các phần. Khi bạn hài lòng với bản xem trước của bài đăng giả đã tạo, hãy sử dụng nút tải xuống hoặc sao chép để tải hình ảnh của bài đăng."
+  }
+}

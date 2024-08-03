@@ -1,0 +1,50 @@
+{
+  "Footer": {
+    "policy": "Usage Policy"
+  },
+  "HomePage": {
+    "title": "FakeGPT",
+    "description": "Fake ChatGPT Message Generator. Please read our Usage Policy before using.",
+    "table1": {
+      "input": "Input",
+      "description": "Add messages for user and ChatGPT",
+      "message": "Message",
+      "addmsg": "Add more messages"
+    },
+    "table2": {
+      "output": "Output",
+      "messagePlaceholder": "Message",
+      "guide": "Download or copy this image to post to social media",
+      "downloadBtn": "Download",
+      "copyBtn": "Copy",
+      "copyMsg": "Copied to clipboard"
+    }
+  },
+  "LocaleSwitcher": {
+    "vi": "Tiếng Việt",
+    "en": "English",
+    "label": "Language"
+  },
+  "Policy": {
+    "title": "Policy",
+    "intro": "FakeGPT Generator",
+    "introContent1": "A fake ChatGPT post generator is an online tool that can be used to create a fake ChatGPT post. This is a free, simple, and easy-to-use tool that anyone can use to generate their own fake ChatGPT post.",
+    "introContent2": "Fake ChatGPT Post Generator is a web app that can generate realistic-looking posts for you in just a few minutes. It allows you to create a post with any number of likes, comments, and tags.",
+    "usage": "Usage Policy",
+    "usageContent": "We are NOT responsible for the generated images by users. By using Fake ChatGPT Post Generator by us, you agree to use our tool lawfully and morally, and in agreement with these rules",
+    "usageLi1": "You don't use custom generated ChatGPT images with ill intent; similar as harassing, attacking, inciting violence, condemnation, Intimidation, disparaging, or otherwise hurting other people or organizations.",
+    "usageLi2": "You don't use dummy generated ChatGPT images to spread false information that will negatively affect human life.",
+    "usageLi3": "You don't use custom generated ChatGPT images as any kind of evidence(except for misuse of FakeGPT).",
+    "usageLi4": "You don't present dummy generated ChatGPT images as fact. As described, main purpose is having good time by making fun of people, not just misleading them.",
+    "usageLi5": "You make it clear to any viewers that dummy generated ChatGPT images are not real/genuine.",
+    "aboutChatGPT": "What is ChatGPT?",
+    "ChatGPTcontent": "ChatGPT is an advanced language model developed by OpenAI, built on the GPT (Generative Pre-trained Transformer) architecture. It is designed to understand and generate human-like text, enabling it to assist with a wide range of tasks such as answering questions, drafting emails, writing essays, and engaging in conversational dialogue. Leveraging vast amounts of data, ChatGPT can provide coherent and contextually relevant responses, making it a powerful tool for communication, creativity, and information retrieval.",
+    "benefit": "What can you do with FakeGPT Generator Tool?",
+    "benefitLi1": "It helps to create a fake ChatGPT post template by entering all the required details like ChatGPT username, location, image, text content, post time, image count, etc.",
+    "benefitLi2": "This tool provides the facility to add the image to the profile and also add pictures in Mock ChatGPT post content. Users can generate posts with the symbol of a verified account.",
+    "benefitLi3": "This tool can be used for fun, create ChatGPT posts, and works as a mimic ChatGPT post generator or spam ChatGPT post generator.",
+    "benefitLi4": "Online Fake ChatGPT Post maker tool works well on Windows, MAC, Linux, Chrome, Firefox, Edge, and Safari.",
+    "howTo": "How to make a fake ChatGPT post?",
+    "howToContent": "Open FakeGPT in your favorite browser and update the fields of content and many other from the left side of the sections. Once you like the preview of your generated fake post, use download or copy button to download the image of the post."
+  }
+}
