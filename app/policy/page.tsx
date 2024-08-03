@@ -1,12 +1,11 @@
-"use client";
 import Navbar from "@/components/sections/navbar";
-import { SITE_DESCRIPTION } from "@/lib/constants";
+import { SITE_NAME } from "@/lib/constants";
 import { Metadata } from "next";
 import { useLocale, useTranslations } from "next-intl";
 
 export const metadata: Metadata = {
-  title: "Policy | FakeMess",
-  description: SITE_DESCRIPTION,
+  title: `Policy | ${SITE_NAME}`,
+  description: `Policy and Terms of ${SITE_NAME}`,
 };
 
 const PolicyPage = () => {
