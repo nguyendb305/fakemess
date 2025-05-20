@@ -3,21 +3,31 @@
     "policy": "Chính sách sử dụng"
   },
   "HomePage": {
-    "title": "FakeGPT",
-    "description": "Công cụ miễn phí tạo tin nhắn ChatGPT giả. Vui lòng đọc kỹ chính sách sử dụng trước khi dùng.",
-    "table1": {
-      "input": "Sửa",
-      "description": "Thêm nội dung tin nhắn và câu trả lời của ChatGPT",
-      "message": "Tin nhắn",
-      "addmsg": "Thêm tin nhắn"
+    "title": "Trình Tạo Tin Nhắn Giả",
+    "description": "Tạo tin nhắn giả từ nhiều nền tảng khác nhau. Vui lòng đọc kỹ chính sách sử dụng trước khi dùng.",
+    "generators": {
+      "chatgpt": {
+        "name": "ChatGPT",
+        "description": "Tạo cuộc hội thoại ChatGPT giả"
+      }
     },
-    "table2": {
-      "output": "Kết quả",
-      "messagePlaceholder": "Tin nhắn",
-      "guide": "Bạn có thể Tải ảnh về hoặc Sao chép vào bộ nhớ tạm",
-      "downloadBtn": "Tải ảnh",
-      "copyBtn": "Copy",
-      "copyMsg": "Đã sao chép"
+    "chatgpt": {
+      "title": "FakeGPT",
+      "description": "Công cụ miễn phí tạo tin nhắn ChatGPT giả. Vui lòng đọc kỹ chính sách sử dụng trước khi dùng.",
+      "table1": {
+        "input": "Sửa",
+        "description": "Thêm nội dung tin nhắn và câu trả lời của ChatGPT",
+        "message": "Tin nhắn",
+        "addmsg": "Thêm tin nhắn"
+      },
+      "table2": {
+        "output": "Kết quả",
+        "messagePlaceholder": "Tin nhắn",
+        "guide": "Bạn có thể Tải ảnh về hoặc Sao chép vào bộ nhớ tạm",
+        "downloadBtn": "Tải ảnh",
+        "copyBtn": "Copy",
+        "copyMsg": "Đã sao chép"
+      }
     }
   },
   "LocaleSwitcher": {

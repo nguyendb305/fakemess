@@ -3,21 +3,31 @@
     "policy": "Usage Policy"
   },
   "HomePage": {
-    "title": "FakeGPT",
-    "description": "Fake ChatGPT Message Generator. Please read our Usage Policy before using.",
-    "table1": {
-      "input": "Input",
-      "description": "Add messages for user and ChatGPT",
-      "message": "Message",
-      "addmsg": "Add more messages"
+    "title": "Fake Message Generators",
+    "description": "Create fake messages from various platforms. Please read our Usage Policy before using.",
+    "generators": {
+      "chatgpt": {
+        "name": "ChatGPT",
+        "description": "Generate fake ChatGPT conversations"
+      }
     },
-    "table2": {
-      "output": "Output",
-      "messagePlaceholder": "Message",
-      "guide": "Download or copy this image to post to social media",
-      "downloadBtn": "Download",
-      "copyBtn": "Copy",
-      "copyMsg": "Copied to clipboard"
+    "chatgpt": {
+      "title": "FakeGPT",
+      "description": "Fake ChatGPT Message Generator. Please read our Usage Policy before using.",
+      "table1": {
+        "input": "Input",
+        "description": "Add messages for user and ChatGPT",
+        "message": "Message",
+        "addmsg": "Add more messages"
+      },
+      "table2": {
+        "output": "Output",
+        "messagePlaceholder": "Message",
+        "guide": "Download or copy this image to post to social media",
+        "downloadBtn": "Download",
+        "copyBtn": "Copy",
+        "copyMsg": "Copied to clipboard"
+      }
     }
   },
   "LocaleSwitcher": {
