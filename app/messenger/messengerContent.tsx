@@ -160,7 +160,7 @@ const getMessageBubbleClass = (messages: Array<{ role: string; text: string }>, 
 
   // Base classes for the message bubble
   const baseClasses = `px-3 py-2 break-words whitespace-pre-wrap ${
-    isUser ? "text-white" : "bg-gray-100 text-gray-900"
+    isUser ? "text-white" : "bg-[#f0f0f0] text-gray-900"
   }`;
 
   // Border radius logic
@@ -194,6 +194,19 @@ const getMessageBubbleClass = (messages: Array<{ role: string; text: string }>, 
     // Messages in between: all corners 18px
     return `${baseClasses} rounded-[18px] rounded-l-[4px]`;
   }
+};
+
+// Helper function to check if a message is the last in its sequence
+const isLastInSequence = (messages: Array<{ role: string; text: string }>, index: number) => {
+  if (!messages[index].text) return false;
+  
+  let sequenceEnd = index;
+  while (sequenceEnd < messages.length - 1 && 
+         messages[sequenceEnd + 1].role === messages[index].role && 
+         messages[sequenceEnd + 1].text) {
+    sequenceEnd++;
+  }
+  return index === sequenceEnd;
 };
 
 const MessengerGenerator = () => {
@@ -400,7 +413,7 @@ const MessengerGenerator = () => {
     >
       {/* Gradient Background - Single source of gradient */}
       <div 
-        className="absolute inset-0 bg-gradient-to-b from-[rgb(170,0,255)] to-[rgb(0,112,246)] opacity-0 pointer-events-none"
+        className="absolute inset-0 bg-gradient-to-b from-[rgb(170,0,255)] to-[rgb(8,102,255)] opacity-0 pointer-events-none"
         aria-hidden="true"
       />
 
@@ -421,7 +434,9 @@ const MessengerGenerator = () => {
                 <p className="text-[13px] text-gray-500">{activeStatus}</p>
               )}
             </div>
-            <ArrowDownIcon />
+            <div className="[&>svg]:text-[rgb(170,0,255)]">
+              <ArrowDownIcon />
+            </div>
           </div>
         </div>
         <div className="flex items-center space-x-1">
@@ -470,6 +485,8 @@ const MessengerGenerator = () => {
             Math.round(255 * (1 - gradientPosition) + 246 * gradientPosition)
           })`;
 
+          const showAvatar = isLastInSequence(messages, index);
+
           return (
             <div key={index}>
               {showTime && message.time && (
@@ -482,14 +499,19 @@ const MessengerGenerator = () => {
               <div className={`my-0.5 text-[15px] flex ${
                 message.role === "user" ? "justify-end" : "justify-start"
               }`}>
-                {message.role === "friend" && (
-                  <Image
-                    src={getAvatarSrc("friend")}
-                    alt="Friend Avatar"
-                    width={32}
-                    height={32}
-                    className="rounded-full w-7 h-7 object-cover mr-2"
-                  />
+                {message.role === "friend" && showAvatar && (
+                  <div className="flex items-end">
+                    <Image
+                      src={getAvatarSrc("friend")}
+                      alt="Friend Avatar"
+                      width={28}
+                      height={28}
+                      className="rounded-full w-7 h-7 object-cover mr-2"
+                    />
+                  </div>
+                )}
+                {message.role === "friend" && !showAvatar && (
+                  <div className="w-9" /> /* Spacer for avatar width (28px) + margin (8px) */
                 )}
                 <div className="flex flex-col max-w-[70%]">
                   <div 
@@ -499,14 +521,19 @@ const MessengerGenerator = () => {
                     <p className="break-words whitespace-pre-wrap">{message.text}</p>
                   </div>
                 </div>
-                {message.role === "user" && (
-                  <Image
-                    src={getAvatarSrc("user")}
-                    alt="User Avatar"
-                    width={32}
-                    height={32}
-                    className="rounded-full w-8 h-8 object-cover ml-2"
-                  />
+                {message.role === "user" && !showAvatar && (
+                  <div className="w-9" /> /* Spacer for avatar width (28px) + margin (8px) */
+                )}
+                {message.role === "user" && showAvatar && (
+                  <div className="flex items-end">
+                    <Image
+                      src={getAvatarSrc("user")}
+                      alt="User Avatar"
+                      width={28}
+                      height={28}
+                      className="rounded-full w-7 h-7 object-cover ml-2"
+                    />
+                  </div>
                 )}
               </div>
             </div>
@@ -515,9 +542,9 @@ const MessengerGenerator = () => {
       </div>
 
       {/* Modern Input Area */}
-      <div className="p-2 bg-white border-t h-[60px] relative">
+      <div className="py-3 px-1 bg-white border-t h-[60px] relative">
         <div className="flex items-center space-x-2">
-          <div className="flex items-center space-x-2 flex-shrink-0">
+          <div className="flex items-center space-x-1 flex-shrink-0">
             <button className="p-1 hover:bg-gray-100 rounded-full [&>svg]:text-[rgb(0,112,246)]">
               <MicrophoneIcon />
             </button>
@@ -531,14 +558,14 @@ const MessengerGenerator = () => {
               <GifIcon />
             </button>
           </div>
-          <div className="flex-1 bg-gray-100 rounded-full px-2 py-1 flex items-center min-w-0">
+          <div className="flex-1 bg-[#f0f2f5] rounded-full p-1 pl-2 flex items-center min-w-0">
             <input
               type="text"
               placeholder="Aa"
               className="flex-1 bg-transparent outline-none min-w-0"
               disabled
             />
-            <button className="py-1 hover:bg-gray-200 rounded-full flex-shrink-0 [&>svg]:text-[rgb(0,112,246)]">
+            <button className="p-1 hover:bg-gray-200 rounded-full flex-shrink-0 [&>svg]:text-[rgb(0,112,246)]">
               <EmojiIcon />
             </button>
           </div>
