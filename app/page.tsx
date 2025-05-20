@@ -15,14 +15,13 @@ const Home = () => {
       icon: "/gpt-avatar.jpg",
       path: "/chatgpt",
     },
-    // Add more generators here in the future
-    // {
-    //   id: "messenger",
-    //   name: "Facebook Messenger",
-    //   description: "Generate fake Facebook Messenger conversations",
-    //   icon: "/messenger-icon.png",
-    //   path: "/messenger",
-    // },
+    {
+      id: "messenger",
+      name: "Facebook Messenger",
+      description: "Generate fake Facebook Messenger conversations",
+      icon: "/messenger-icon.jpg",
+      path: "/messenger",
+    },
   ];
 
   return (

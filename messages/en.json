@@ -9,6 +9,10 @@
       "chatgpt": {
         "name": "ChatGPT",
         "description": "Generate fake ChatGPT conversations"
+      },
+      "messenger": {
+        "name": "Facebook Messenger",
+        "description": "Generate fake Facebook Messenger conversations"
       }
     },
     "chatgpt": {
@@ -23,6 +27,37 @@
       "table2": {
         "output": "Output",
         "messagePlaceholder": "Message",
+        "guide": "Download or copy this image to post to social media",
+        "downloadBtn": "Download",
+        "copyBtn": "Copy",
+        "copyMsg": "Copied to clipboard"
+      }
+    },
+    "messenger": {
+      "title": "Fake Messenger",
+      "description": "Fake Facebook Messenger Message Generator. Please read our Usage Policy before using.",
+      "table1": {
+        "input": "Input",
+        "description": "Add messages for you and your friend",
+        "message": "Message",
+        "addmsg": "Add more messages",
+        "friendName": "Friend's Name",
+        "friendNamePlaceholder": "Enter friend's name",
+        "friendAvatar": "Friend's Avatar",
+        "userAvatar": "Your Avatar",
+        "user": "You",
+        "friend": "Friend",
+        "timePlaceholder": "Time (optional)",
+        "uiMode": "UI Mode",
+        "classicMode": "Classic",
+        "modernMode": "Modern",
+        "activeStatus": "Active Status",
+        "activeStatusPlaceholder": "Active now",
+        "messagePlaceholder": "Message"
+      },
+      "table2": {
+        "output": "Output",
+        "messagePlaceholder": "Aa",
         "guide": "Download or copy this image to post to social media",
         "downloadBtn": "Download",
         "copyBtn": "Copy",

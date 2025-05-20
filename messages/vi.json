@@ -9,6 +9,10 @@
       "chatgpt": {
         "name": "ChatGPT",
         "description": "Tạo cuộc hội thoại ChatGPT giả"
+      },
+      "messenger": {
+        "name": "Facebook Messenger",
+        "description": "Tạo cuộc hội thoại Messenger giả"
       }
     },
     "chatgpt": {
@@ -23,6 +27,38 @@
       "table2": {
         "output": "Kết quả",
         "messagePlaceholder": "Tin nhắn",
+        "guide": "Bạn có thể Tải ảnh về hoặc Sao chép vào bộ nhớ tạm",
+        "downloadBtn": "Tải ảnh",
+        "copyBtn": "Copy",
+        "copyMsg": "Đã sao chép"
+      }
+    },
+    "messenger": {
+      "title": "Fake Messenger",
+      "description": "Công cụ miễn phí tạo tin nhắn Messenger giả. Vui lòng đọc kỹ chính sách sử dụng trước khi dùng.",
+      "table1": {
+        "input": "Sửa",
+        "description": "Thêm nội dung tin nhắn giữa bạn và bạn bè",
+        "message": "Tin nhắn",
+        "addmsg": "Thêm tin nhắn",
+        "friendName": "Tên bạn bè",
+        "friendNamePlaceholder": "Nhập tên bạn bè",
+        "friendAvatar": "Ảnh đại diện bạn bè",
+        "userAvatar": "Ảnh đại diện của bạn",
+        "user": "Bạn",
+        "friend": "Bạn bè",
+        "timePlaceholder": "Thời gian (tùy chọn)",
+        "uiMode": "Giao diện",
+        "classicMode": "Cổ điển",
+        "modernMode": "Hiện đại",
+        "activeStatus": "Trạng thái hoạt động",
+        "activeStatusPlaceholder": "Đang hoạt động",
+        "messagePlaceholder": "Tin nhắn"
+
+      },
+      "table2": {
+        "output": "Kết quả",
+        "messagePlaceholder": "Aa",
         "guide": "Bạn có thể Tải ảnh về hoặc Sao chép vào bộ nhớ tạm",
         "downloadBtn": "Tải ảnh",
         "copyBtn": "Copy",
