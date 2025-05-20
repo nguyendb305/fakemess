@@ -12,7 +12,7 @@
       }
     },
     "chatgpt": {
-      "title": "FakeGPT",
+      "title": "Fake ChatGPT Messages",
       "description": "Fake ChatGPT Message Generator. Please read our Usage Policy before using.",
       "table1": {
         "input": "Input",

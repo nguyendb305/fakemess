@@ -12,7 +12,7 @@
       }
     },
     "chatgpt": {
-      "title": "FakeGPT",
+      "title": "Fake ChatGPT Messages",
       "description": "Công cụ miễn phí tạo tin nhắn ChatGPT giả. Vui lòng đọc kỹ chính sách sử dụng trước khi dùng.",
       "table1": {
         "input": "Sửa",

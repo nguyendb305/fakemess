@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="border-t drop-shadow-sm m-4 flex justify-between text-sm pt-2">
       <p className="text-muted-foreground block">
-        © 2024 by <Link href="https://www.threads.net/@ndbing_">@ndbing_</Link>
+        © 2025 by Andy Bing
       </p>
       <div>
         <Link href="/policy">{t("policy")}</Link>
