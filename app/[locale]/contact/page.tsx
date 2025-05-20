@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { useLocale, useTranslations } from "next-intl";
 import { BsEnvelope, BsGithub } from "react-icons/bs";
-import Navbar from "@/components/sections/navbar";
 import { SITE_NAME } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -14,7 +13,12 @@ export const metadata: Metadata = {
     url: "https://fakemess.com/contact",
   },
   alternates: {
-    canonical: "https://fakemess.com/contact"
+    canonical: "https://fakemess.com/contact",
+    languages: {
+      'en': 'https://fakemess.com/contact',
+      'vi': 'https://fakemess.com/vi/contact',
+      'x-default': 'https://fakemess.com/contact'
+    }
   },
 };
 
@@ -24,7 +28,6 @@ export default function Contact() {
 
   return (
     <main>
-      <Navbar />
       <div className="min-h-screen">
         <div className="container p-4 mx-auto">
           <div className="bg-gray-50 p-4 rounded-lg">

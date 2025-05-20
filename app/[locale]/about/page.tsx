@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import { useLocale, useTranslations } from "next-intl";
-import Navbar from "@/components/sections/navbar";
 import { SITE_NAME } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -13,7 +12,12 @@ export const metadata: Metadata = {
     url: "https://fakemess.com/about",
   },
   alternates: {
-    canonical: "https://fakemess.com/about"
+    canonical: "https://fakemess.com/about",
+    languages: {
+      'en': 'https://fakemess.com/about',
+      'vi': 'https://fakemess.com/vi/about',
+      'x-default': 'https://fakemess.com/about'
+    }
   },
 };
 
@@ -23,7 +27,6 @@ export default function About() {
 
   return (
     <main>
-      <Navbar />
       <div className="min-h-screen">
         <div className="container p-4 mx-auto">
           <div className="bg-gray-50 p-4 rounded-lg">

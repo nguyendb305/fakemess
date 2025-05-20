@@ -16,6 +16,19 @@
         "name": "Facebook Messenger",
         "description": "Generate fake Facebook Messenger conversations"
       }
+     
+    },
+    "about": {
+      "headline": "No More Self-Texting!",
+      "memeAlt": "Behind the Scenes Meme: No more self-texting!",
+      "description1": "Ever juggled two phones just to fake a chat?",
+      "brand": " FakeMess ",
+      "description2":"lets you create both sides of any conversation in one place—no more awkward self-texting or screenshots from two devices!",
+      "bullet1": "Save time and effort—generate realistic chats instantly",
+      "bullet2": "Perfect for memes, pranks, stories, and creative projects",
+      "bullet3": "Customize avatars, names, times, and more",
+      "bullet4": "Export high-quality images for sharing",
+      "privacyNote": "All in your browser. Safe, private, and super easy to use!"
     },
     "chatgpt": {
       "title": "Fake ChatGPT Messages",
@@ -70,31 +83,53 @@
     }
   },
   "LocaleSwitcher": {
-    "vi": "Tiếng Việt",
-    "en": "English",
-    "label": "Language"
+    "label": "Change language",
+    "locale": {
+      "vi": "🇻🇳 Tiếng Việt",
+      "en": "🇺🇸 English"
+    }
   },
   "Policy": {
-    "title": "Policy",
-    "intro": "FakeGPT Generator",
-    "introContent1": "A fake ChatGPT post generator is an online tool that can be used to create a fake ChatGPT post. This is a free, simple, and easy-to-use tool that anyone can use to generate their own fake ChatGPT post.",
-    "introContent2": "Fake ChatGPT Post Generator is a web app that can generate realistic-looking posts for you in just a few minutes. It allows you to create a post with any number of likes, comments, and tags.",
+    "title": "Usage Policy",
+    "intro": "Introduction",
+    "introContent1": "Welcome to FakeMess. This policy outlines the terms and conditions for using our fake message generators.",
+    "introContent2": "Our tools are designed for entertainment and creative purposes only. Please use them responsibly.",
     "usage": "Usage Policy",
-    "usageContent": "We are NOT responsible for the generated images by users. By using Fake ChatGPT Post Generator by us, you agree to use our tool lawfully and morally, and in agreement with these rules",
-    "usageLi1": "You don't use custom generated ChatGPT images with ill intent; similar as harassing, attacking, inciting violence, condemnation, Intimidation, disparaging, or otherwise hurting other people or organizations.",
-    "usageLi2": "You don't use dummy generated ChatGPT images to spread false information that will negatively affect human life.",
-    "usageLi3": "You don't use custom generated ChatGPT images as any kind of evidence(except for misuse of FakeGPT).",
-    "usageLi4": "You don't present dummy generated ChatGPT images as fact. As described, main purpose is having good time by making fun of people, not just misleading them.",
-    "usageLi5": "You make it clear to any viewers that dummy generated ChatGPT images are not real/genuine.",
-    "aboutChatGPT": "What is ChatGPT?",
-    "ChatGPTcontent": "ChatGPT is an advanced language model developed by OpenAI, built on the GPT (Generative Pre-trained Transformer) architecture. It is designed to understand and generate human-like text, enabling it to assist with a wide range of tasks such as answering questions, drafting emails, writing essays, and engaging in conversational dialogue. Leveraging vast amounts of data, ChatGPT can provide coherent and contextually relevant responses, making it a powerful tool for communication, creativity, and information retrieval.",
-    "benefit": "What can you do with FakeGPT Generator Tool?",
-    "benefitLi1": "It helps to create a fake ChatGPT post template by entering all the required details like ChatGPT username, location, image, text content, post time, image count, etc.",
-    "benefitLi2": "This tool provides the facility to add the image to the profile and also add pictures in Mock ChatGPT post content. Users can generate posts with the symbol of a verified account.",
-    "benefitLi3": "This tool can be used for fun, create ChatGPT posts, and works as a mimic ChatGPT post generator or spam ChatGPT post generator.",
-    "benefitLi4": "Online Fake ChatGPT Post maker tool works well on Windows, MAC, Linux, Chrome, Firefox, Edge, and Safari.",
-    "howTo": "How to make a fake ChatGPT post?",
-    "howToContent": "Open FakeGPT in your favorite browser and update the fields of content and many other from the left side of the sections. Once you like the preview of your generated fake post, use download or copy button to download the image of the post."
+    "usageContent": "By using our services, you agree to the following terms:",
+    "usageLi1": "Use the generated content for entertainment purposes only",
+    "usageLi2": "Do not use the content to deceive or mislead others",
+    "usageLi3": "Do not use the content for any illegal activities",
+    "usageLi4": "Do not claim the generated content as authentic",
+    "usageLi5": "Respect copyright and intellectual property rights",
+    "tools": {
+      "title": "Available Tools",
+      "chatgpt": {
+        "title": "ChatGPT Message Generator",
+        "description": "Create realistic-looking ChatGPT conversations with customizable messages and responses.",
+        "feature1": "Customize AI responses and user messages",
+        "feature2": "Add timestamps and conversation context",
+        "feature3": "Download as image for easy sharing"
+      },
+      "messenger": {
+        "title": "Messenger Chat Generator",
+        "description": "Generate authentic-looking Facebook Messenger conversations with various customization options.",
+        "feature1": "Customize message bubbles and timestamps",
+        "feature2": "Add typing indicators and read receipts",
+        "feature3": "Include profile pictures and names"
+      }
+    },
+    "howToTitle": "How to Use",
+    "howToContent": "Follow these simple steps to create your fake messages:",
+    "howTo": {
+      "step1": "Select the tool you want to use (ChatGPT or Messenger)",
+      "step2": "Customize your conversation with the available options",
+      "step3": "Generate and download your image",
+      "step4": "Share your fake message on social media or with friends"
+    },
+    "disclaimer": {
+      "title": "Important Disclaimer",
+      "content": "The content generated by our tools is for entertainment purposes only. We do not endorse or encourage the use of fake messages for deceptive purposes. Users are solely responsible for how they use the generated content."
+    }
   },
   "About": {
     "title": "About FakeMess",
@@ -142,5 +177,22 @@
       "contactMethod": "Your preferred contact method",
       "requirements": "Any specific requirements or deadlines"
     }
+  },
+  "metadata": {
+    "title": "FakeMess - Create Realistic Fake Chat Screenshots",
+    "description": "Generate authentic-looking chat screenshots for ChatGPT and Facebook Messenger. Free online tools for creating realistic conversations, perfect for social media content, marketing materials, and design mockups.",
+    "keywords": [
+      "fake chat generator",
+      "chat screenshot maker",
+      "fake messenger generator",
+      "fake chatgpt generator",
+      "chat conversation maker",
+      "fake chat screenshots",
+      "messenger screenshot creator",
+      "chatgpt conversation generator",
+      "fake chat maker",
+      "chat mockup generator"
+    ],
+    "ogImageAlt": "FakeMess - Chat Screenshot Generator"
   }
 }

@@ -1,0 +1,53 @@
+{
+  "name": "FakeMess",
+  "short_name": "FakeMess",
+  "description": "Create realistic fake chat screenshots for ChatGPT and Facebook Messenger",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "productivity", "social"],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "FakeMess - Chat Screenshot Generator"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Create ChatGPT Screenshot",
+      "short_name": "ChatGPT",
+      "description": "Create a fake ChatGPT conversation screenshot",
+      "url": "/chatgpt",
+      "icons": [{ "src": "/gpt-avatar.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Create Messenger Screenshot",
+      "short_name": "Messenger",
+      "description": "Create a fake Messenger conversation screenshot",
+      "url": "/messenger",
+      "icons": [{ "src": "/messenger-avatar.jpg", "sizes": "192x192" }]
+    }
+  ],
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false
+} 

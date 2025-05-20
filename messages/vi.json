@@ -17,6 +17,18 @@
         "description": "Tạo cuộc hội thoại Messenger giả"
       }
     },
+    "about": {
+      "headline": "Không còn tự gửi tin nhắn!",
+      "memeAlt": "Ảnh meme: Không còn tự gửi tin nhắn!",
+      "description1": "Bạn đã từng phải dùng 2 chiếc điện thoại chỉ để tạo một đoạn Chat vui nhộn?",
+      "brand": " FakeMess ",
+      "description2":"cho phép bạn tạo cả hai bên của bất kỳ cuộc hội thoại nào trong một nơi—không còn tự gửi tin nhắn hoặc chụp ảnh từ hai thiết bị!",
+      "bullet1": "Tiết kiệm thời gian và công sức—tạo cuộc hội thoại thực tế ngay lập tức",
+      "bullet2": "Hoàn hảo cho meme, cười, câu chuyện và dự án sáng tạo",
+      "bullet3": "Tùy chỉnh ảnh đại diện, tên, thời gian và nhiều hơn nữa",
+      "bullet4": "Xuất ảnh chụp tin nhắn chất lượng cao để chia sẻ",
+      "privacyNote": "Tất cả trong trình duyệt của bạn. An toàn, riêng tư và dễ sử dụng!"
+    },
     "chatgpt": {
       "title": "Fake ChatGPT Messages",
       "description": "Công cụ miễn phí tạo tin nhắn ChatGPT giả. Vui lòng đọc kỹ chính sách sử dụng trước khi dùng.",
@@ -70,31 +82,53 @@
     }
   },
   "LocaleSwitcher": {
-    "vi": "Tiếng Việt",
-    "en": "English",
-    "label": "Ngôn ngữ"
+    "label": "Ngôn ngữ",
+    "locale": {
+      "vi": "🇻🇳 Tiếng Việt",
+      "en": "🇺🇸 English"
+    }
   },
   "Policy": {
-    "title": "Chính sách",
-    "intro": "Trình tạo FakeGPT",
-    "introContent1": "Trình tạo bài đăng giả ChatGPT là một công cụ trực tuyến có thể được sử dụng để tạo ra một bài đăng giả ChatGPT. Đây là một công cụ miễn phí, đơn giản và dễ sử dụng mà bất kỳ ai cũng có thể sử dụng để tạo ra bài đăng giả ChatGPT của riêng mình.",
-    "introContent2": "Trình tạo bài đăng giả ChatGPT là một ứng dụng web có thể tạo ra các bài đăng trông thực tế chỉ trong vài phút. Nó cho phép bạn tạo ra một bài đăng với bất kỳ số lượt thích, bình luận và thẻ nào.",
-    "usage": "Chính sách Sử dụng",
-    "usageContent": "Chúng tôi KHÔNG chịu trách nhiệm về các hình ảnh được tạo ra bởi người dùng. Bằng cách sử dụng Trình tạo bài đăng giả ChatGPT của chúng tôi, bạn đồng ý sử dụng công cụ của chúng tôi một cách hợp pháp và đạo đức, và tuân theo các quy tắc này",
-    "usageLi1": "Bạn không sử dụng hình ảnh ChatGPT được tạo ra với ý định xấu; chẳng hạn như quấy rối, tấn công, kích động bạo lực, lên án, đe dọa, làm mất uy tín hoặc gây tổn hại cho người khác hoặc tổ chức.",
-    "usageLi2": "Bạn không sử dụng hình ảnh ChatGPT giả tạo để lan truyền thông tin sai lệch có thể ảnh hưởng tiêu cực đến cuộc sống con người.",
-    "usageLi3": "Bạn không sử dụng hình ảnh ChatGPT được tạo ra làm bất kỳ loại bằng chứng nào (ngoại trừ trường hợp lạm dụng FakeGPT).",
-    "usageLi4": "Bạn không trình bày hình ảnh ChatGPT giả tạo như là sự thật. Như đã mô tả, mục đích chính là để vui vẻ bằng cách trêu chọc mọi người, không phải để gây hiểu lầm cho họ.",
-    "usageLi5": "Bạn làm rõ cho bất kỳ người xem nào rằng các hình ảnh ChatGPT giả tạo không phải là thật/gốc.",
-    "aboutChatGPT": "ChatGPT là gì?",
-    "ChatGPTcontent": "ChatGPT là một mô hình ngôn ngữ tiên tiến được phát triển bởi OpenAI, được xây dựng trên kiến trúc GPT (Generative Pre-trained Transformer). Nó được thiết kế để hiểu và tạo ra văn bản giống như con người, cho phép nó hỗ trợ với nhiều tác vụ khác nhau như trả lời câu hỏi, soạn thảo email, viết tiểu luận và tham gia vào các cuộc hội thoại. Sử dụng lượng dữ liệu khổng lồ, ChatGPT có thể cung cấp các phản hồi mạch lạc và phù hợp với ngữ cảnh, khiến nó trở thành một công cụ mạnh mẽ cho giao tiếp, sáng tạo và tìm kiếm thông tin.",
-    "benefit": "Bạn có thể làm gì với Trình tạo FakeGPT?",
-    "benefitLi1": "Nó giúp tạo ra mẫu bài đăng giả ChatGPT bằng cách nhập tất cả các chi tiết cần thiết như tên người dùng ChatGPT, vị trí, hình ảnh, nội dung văn bản, thời gian đăng, số lượng hình ảnh, v.v.",
-    "benefitLi2": "Công cụ này cung cấp khả năng thêm hình ảnh vào hồ sơ và cũng thêm hình ảnh vào nội dung bài đăng giả ChatGPT. Người dùng có thể tạo bài đăng với biểu tượng của tài khoản đã xác minh.",
-    "benefitLi3": "Công cụ này có thể được sử dụng để vui chơi, tạo bài đăng ChatGPT và hoạt động như một trình tạo bài đăng ChatGPT giả hoặc trình tạo bài đăng ChatGPT spam.",
-    "benefitLi4": "Công cụ làm bài đăng giả ChatGPT trực tuyến hoạt động tốt trên Windows, MAC, Linux, Chrome, Firefox, Edge và Safari.",
-    "howTo": "Làm thế nào để tạo bài đăng giả ChatGPT?",
-    "howToContent": "Mở FakeGPT trong trình duyệt yêu thích của bạn và cập nhật các trường nội dung và nhiều mục khác từ phía bên trái của các phần. Khi bạn hài lòng với bản xem trước của bài đăng giả đã tạo, hãy sử dụng nút tải xuống hoặc sao chép để tải hình ảnh của bài đăng."
+    "title": "Chính Sách Sử Dụng",
+    "intro": "Giới Thiệu",
+    "introContent1": "Chào mừng đến với FakeMess. Chính sách này nêu rõ các điều khoản và điều kiện sử dụng các công cụ tạo tin nhắn giả của chúng tôi.",
+    "introContent2": "Các công cụ của chúng tôi được thiết kế chỉ dành cho mục đích giải trí và sáng tạo. Vui lòng sử dụng một cách có trách nhiệm.",
+    "usage": "Chính Sách Sử Dụng",
+    "usageContent": "Bằng việc sử dụng dịch vụ của chúng tôi, bạn đồng ý với các điều khoản sau:",
+    "usageLi1": "Chỉ sử dụng nội dung được tạo cho mục đích giải trí",
+    "usageLi2": "Không sử dụng nội dung để lừa dối hoặc gây hiểu nhầm cho người khác",
+    "usageLi3": "Không sử dụng nội dung cho bất kỳ hoạt động bất hợp pháp nào",
+    "usageLi4": "Không tuyên bố nội dung được tạo là xác thực",
+    "usageLi5": "Tôn trọng bản quyền và quyền sở hữu trí tuệ",
+    "tools": {
+      "title": "Các Công Cụ Hiện Có",
+      "chatgpt": {
+        "title": "Công Cụ Tạo Tin Nhắn ChatGPT",
+        "description": "Tạo các cuộc hội thoại ChatGPT trông thực tế với tin nhắn và phản hồi có thể tùy chỉnh.",
+        "feature1": "Tùy chỉnh phản hồi AI và tin nhắn người dùng",
+        "feature2": "Thêm thời gian và ngữ cảnh hội thoại",
+        "feature3": "Tải xuống dưới dạng hình ảnh để dễ dàng chia sẻ"
+      },
+      "messenger": {
+        "title": "Công Cụ Tạo Chat Messenger",
+        "description": "Tạo các cuộc hội thoại Facebook Messenger trông xác thực với nhiều tùy chọn tùy chỉnh.",
+        "feature1": "Tùy chỉnh bong bóng tin nhắn và thời gian",
+        "feature2": "Thêm chỉ báo đang nhập và trạng thái đã đọc",
+        "feature3": "Bao gồm ảnh đại diện và tên người dùng"
+      }
+    },
+    "howToTitle": "Cách Sử Dụng",
+    "howToContent": "Làm theo các bước đơn giản sau để tạo tin nhắn giả của bạn:",
+    "howTo": {
+      "step1": "Chọn công cụ bạn muốn sử dụng (ChatGPT hoặc Messenger)",
+      "step2": "Tùy chỉnh cuộc hội thoại của bạn với các tùy chọn có sẵn",
+      "step3": "Tạo và tải xuống hình ảnh của bạn",
+      "step4": "Chia sẻ tin nhắn giả của bạn trên mạng xã hội hoặc với bạn bè"
+    },
+    "disclaimer": {
+      "title": "Tuyên Bố Miễn Trừ Trách Nhiệm Quan Trọng",
+      "content": "Nội dung được tạo bởi các công cụ của chúng tôi chỉ dành cho mục đích giải trí. Chúng tôi không khuyến khích hoặc ủng hộ việc sử dụng tin nhắn giả cho mục đích lừa dối. Người dùng hoàn toàn chịu trách nhiệm về cách họ sử dụng nội dung được tạo."
+    }
   },
   "About": {
     "title": "Giới thiệu về FakeMess",
@@ -142,5 +176,22 @@
       "contactMethod": "Phương thức liên hệ ưa thích của bạn",
       "requirements": "Bất kỳ yêu cầu hoặc thời hạn cụ thể nào"
     }
+  },
+  "metadata": {
+    "title": "FakeMess - Tạo Tin Nhắn Giả Thực Tế",
+    "description": "Tạo ảnh chụp tin nhắn thực tế cho ChatGPT và Facebook Messenger. Công cụ trực tuyến miễn phí để tạo cuộc hội thoại giả, hoàn hảo cho nội dung mạng xã hội, tài liệu tiếp thị và thiết kế.",
+    "keywords": [
+      "trình tạo tin nhắn giả",
+      "tạo ảnh chụp tin nhắn",
+      "trình tạo messenger giả",
+      "trình tạo chatgpt giả",
+      "tạo cuộc hội thoại",
+      "ảnh chụp tin nhắn giả",
+      "tạo ảnh messenger",
+      "tạo cuộc hội thoại chatgpt",
+      "tạo tin nhắn giả",
+      "tạo mẫu tin nhắn"
+    ],
+    "ogImageAlt": "FakeMess - Trình Tạo Tin Nhắn Giả"
   }
 }

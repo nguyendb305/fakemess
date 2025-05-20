@@ -49,7 +49,12 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://fakemess.com/chatgpt"
+    canonical: "https://fakemess.com/chatgpt",
+    languages: {
+      'en': 'https://fakemess.com/chatgpt',
+      'vi': 'https://fakemess.com/vi/chatgpt',
+      'x-default': 'https://fakemess.com/chatgpt'
+    }
   },
   category: "web tools",
   authors: [{ name: "FakeMess Team" }],

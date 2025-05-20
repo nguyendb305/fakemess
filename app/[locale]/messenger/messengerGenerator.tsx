@@ -11,7 +11,6 @@ import { FaPaperPlane, FaMicrophone, FaImage, FaSmile, FaGift, FaThumbsUp } from
 import { BsThreeDots, BsChevronDown, BsTelephone, BsCameraVideo, BsDash, BsX } from "react-icons/bs";
 import { IoMdSend } from "react-icons/io";
 import { TbMessageCircle } from "react-icons/tb";
-import Navbar from "@/components/sections/navbar";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
@@ -582,7 +581,6 @@ const MessengerGenerator = () => {
 
   return (
     <main className="flex-grow">
-      <Navbar />
       <div className="bg-white text-black">
         <div className="container p-4">
           <div className="mb-4">

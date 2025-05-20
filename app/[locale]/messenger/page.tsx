@@ -49,7 +49,12 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://fakemess.com/messenger"
+    canonical: "https://fakemess.com/messenger",
+    languages: {
+      'en': 'https://fakemess.com/messenger',
+      'vi': 'https://fakemess.com/vi/messenger',
+      'x-default': 'https://fakemess.com/messenger'
+    }
   },
   category: "web tools",
   authors: [{ name: "FakeMess Team" }],

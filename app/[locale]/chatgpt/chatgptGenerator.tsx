@@ -11,7 +11,6 @@ import { FaAngleRight } from "react-icons/fa6";
 import { HiPlusSm } from "react-icons/hi";
 import { IoCopyOutline } from "react-icons/io5";
 import { MdOutlineFileDownload } from "react-icons/md";
-import Navbar from "@/components/sections/navbar";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
@@ -96,7 +95,6 @@ const ChatGPTGenerator = () => {
 
   return (
     <main className="flex-grow">
-      <Navbar />
       <div className="bg-white text-black">
         <div className="container p-4">
           <div className="mb-4">

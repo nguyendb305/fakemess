@@ -1,51 +1,35 @@
-import type { Metadata } from "next";
+import {ReactNode} from 'react';
 import { Inter as FontSans } from "next/font/google";
 import "./styles/globals.css";
 import { cn } from "@/lib/utils";
-import { NextIntlClientProvider } from "next-intl";
-import { getLocale, getMessages } from "next-intl/server";
-import Footer from "@/components/sections/footer";
 import { GoogleTagManager } from "@next/third-parties/google";
-import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/constants";
 
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://fakemess.com"),
-  title: {
-    default: SITE_NAME,
-    template: `%s | ${SITE_NAME}`,
-  },
-  description: "Create realistic chat screenshots with our free online tools. Generate fake ChatGPT and Facebook Messenger conversations.",
+type Props = {
+  children: ReactNode;
 };
 
-export default async function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  const locale = await getLocale();
-  const messages = await getMessages();
-
+// Since we have a `not-found.tsx` page on the root, a layout file
+// is required, even if it's just passing children through.
+export default function RootLayout({children}: Props) {
   return (
-    <html lang={locale} className="scroll-smooth">
-      <body
-        className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
-        )}
-      >
-        <NextIntlClientProvider messages={messages}>
-          <div className="flex flex-col min-h-screen max-w-5xl mx-auto">
-            {children}
-            <Footer />
-          </div>
-        </NextIntlClientProvider>
+    <html className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </head>
+      <body className={cn(
+        "min-h-screen bg-background font-sans antialiased",
+        fontSans.variable
+      )}>
+        {children}
+        <GoogleTagManager gtmId="GTM-NP32K5MM" />
       </body>
-      <GoogleTagManager gtmId="GTM-NP32K5MM" />
     </html>
   );
 }
