@@ -159,7 +159,7 @@ const getMessageBubbleClass = (messages: Array<{ role: string; text: string }>, 
   const isUser = message.role === "user";
 
   // Base classes for the message bubble
-  const baseClasses = `px-3 py-2 ${
+  const baseClasses = `px-3 py-2 break-words whitespace-pre-wrap ${
     isUser ? "text-white" : "bg-gray-100 text-gray-900"
   }`;
 
@@ -353,7 +353,7 @@ const MessengerGenerator = () => {
                         : "bg-white text-black rounded-tl-none"
                     }`}
                   >
-                    <p>{message.text}</p>
+                    <p className="break-words whitespace-pre-wrap">{message.text}</p>
                   </div>
                 </div>
                 {message.role === "user" && (
@@ -441,7 +441,7 @@ const MessengerGenerator = () => {
       </div>
 
       {/* Modern Messages */}
-      <div className="flex-1 p-4 bg-white overflow-y-auto h-[323px] relative">
+      <div className="flex-1 p-1.5 bg-white overflow-y-auto h-[323px] relative">
         {messages.map((message, index) => {
           if (!message.text) return null;
           
@@ -488,7 +488,7 @@ const MessengerGenerator = () => {
                     alt="Friend Avatar"
                     width={32}
                     height={32}
-                    className="rounded-full w-8 h-8 object-cover mr-2"
+                    className="rounded-full w-7 h-7 object-cover mr-2"
                   />
                 )}
                 <div className="flex flex-col max-w-[70%]">
@@ -496,7 +496,7 @@ const MessengerGenerator = () => {
                     className={getMessageBubbleClass(messages, index)}
                     style={message.role === "user" ? { backgroundColor: gradientColor } : undefined}
                   >
-                    <p>{message.text}</p>
+                    <p className="break-words whitespace-pre-wrap">{message.text}</p>
                   </div>
                 </div>
                 {message.role === "user" && (
