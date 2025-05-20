@@ -159,7 +159,7 @@ const getMessageBubbleClass = (messages: Array<{ role: string; text: string }>, 
   const isUser = message.role === "user";
 
   // Base classes for the message bubble
-  const baseClasses = `px-3 py-2 break-words whitespace-pre-wrap ${
+  const baseClasses = `px-3 py-2 break-words whitespace-pre-wrap inline-flex items-center ${
     isUser ? "text-white" : "bg-[#f0f0f0] text-gray-900"
   }`;
 
@@ -385,15 +385,6 @@ const MessengerGenerator = () => {
                     <p className="break-words whitespace-pre-wrap">{message.text}</p>
                   </div>
                 </div>
-                {message.role === "user" && (
-                  <Image
-                    src={getAvatarSrc("user")}
-                    alt="User Avatar"
-                    width={32}
-                    height={32}
-                    className="rounded-full w-8 h-8 object-cover ml-2"
-                  />
-                )}
               </div>
             </div>
           );
@@ -547,20 +538,6 @@ const MessengerGenerator = () => {
                     </div>
                   )}
                 </div>
-                {message.role === "user" && !showAvatar && (
-                  <div className="w-9" /> /* Spacer for avatar width (28px) + margin (8px) */
-                )}
-                {message.role === "user" && showAvatar && (
-                  <div className="flex items-end">
-                    <Image
-                      src={getAvatarSrc("user")}
-                      alt="User Avatar"
-                      width={28}
-                      height={28}
-                      className="rounded-full w-7 h-7 object-cover ml-2"
-                    />
-                  </div>
-                )}
               </div>
             </div>
           );
@@ -626,6 +603,7 @@ const MessengerGenerator = () => {
                   value={friendName}
                   onChange={(e) => setFriendName(e.target.value)}
                   placeholder={t("table1.friendNamePlaceholder")}
+                  className="bg-white"
                 />
               </div>
 
@@ -642,6 +620,7 @@ const MessengerGenerator = () => {
                     value={activeStatus}
                     onChange={(e) => setActiveStatus(e.target.value)}
                     placeholder={t("table1.activeStatusPlaceholder")}
+                    className="bg-white"
                   />
                 )}
               </div>
@@ -652,6 +631,7 @@ const MessengerGenerator = () => {
                   type="file"
                   accept="image/*"
                   onChange={(e) => handleUploadAvatar(e, "friend")}
+                  className="bg-white"
                 />
               </div>
 
@@ -661,6 +641,7 @@ const MessengerGenerator = () => {
                   type="file"
                   accept="image/*"
                   onChange={(e) => handleUploadAvatar(e, "user")}
+                  className="bg-white"
                 />
               </div>
 
@@ -779,4 +760,4 @@ const MessengerGenerator = () => {
   );
 };
 
-export default MessengerGenerator; 
+export default MessengerGenerator;
