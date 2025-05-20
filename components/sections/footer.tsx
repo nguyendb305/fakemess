@@ -9,7 +9,9 @@ const Footer = () => {
       <p className="text-muted-foreground block">
         © 2025 by Andy Bing
       </p>
-      <div>
+      <div className="flex gap-4">
+        <Link href="/about">{t("about")}</Link>
+        <Link href="/contact">{t("contact")}</Link>
         <Link href="/policy">{t("policy")}</Link>
       </div>
     </footer>

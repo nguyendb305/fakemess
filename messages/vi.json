@@ -1,6 +1,8 @@
 {
   "Footer": {
-    "policy": "Chính sách sử dụng"
+    "policy": "Chính sách sử dụng",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ"
   },
   "HomePage": {
     "title": "Trình Tạo Tin Nhắn Giả",
@@ -53,8 +55,9 @@
         "modernMode": "Hiện đại",
         "activeStatus": "Trạng thái hoạt động",
         "activeStatusPlaceholder": "Đang hoạt động",
-        "messagePlaceholder": "Tin nhắn"
-
+        "messagePlaceholder": "Tin nhắn",
+        "seenStatus": "Thêm trạng thái đã xem",
+        "seenStatusPlaceholder": "Đã xem hôm qua"
       },
       "table2": {
         "output": "Kết quả",
@@ -92,5 +95,52 @@
     "benefitLi4": "Công cụ làm bài đăng giả ChatGPT trực tuyến hoạt động tốt trên Windows, MAC, Linux, Chrome, Firefox, Edge và Safari.",
     "howTo": "Làm thế nào để tạo bài đăng giả ChatGPT?",
     "howToContent": "Mở FakeGPT trong trình duyệt yêu thích của bạn và cập nhật các trường nội dung và nhiều mục khác từ phía bên trái của các phần. Khi bạn hài lòng với bản xem trước của bài đăng giả đã tạo, hãy sử dụng nút tải xuống hoặc sao chép để tải hình ảnh của bài đăng."
+  },
+  "About": {
+    "title": "Giới thiệu về FakeMess",
+    "mission": {
+      "title": "Sứ mệnh của chúng tôi",
+      "paragraph1": "Tại FakeMess, chúng tôi cam kết cung cấp các công cụ chất lượng cao để tạo ra các ảnh chụp tin nhắn thực tế. Nền tảng của chúng tôi giúp các nhà sáng tạo nội dung, nhà giáo dục và nhà thiết kế tạo ra các cuộc hội thoại trông thực tế cho nhiều mục đích hợp pháp khác nhau.",
+      "paragraph2": "Chúng tôi tin rằng việc làm cho các công cụ chuyên nghiệp có thể tiếp cận được với mọi người, đó là lý do tại sao tất cả các công cụ tạo của chúng tôi đều hoàn toàn miễn phí, không có phí ẩn hoặc tính năng cao cấp."
+    },
+    "offer": {
+      "title": "Chúng tôi cung cấp",
+      "chatgpt": "Trình tạo ChatGPT: Tạo ảnh chụp cuộc hội thoại AI thực tế với định dạng khối mã và hỗ trợ markdown",
+      "messenger": "Trình tạo Facebook Messenger: Tạo cuộc hội thoại Messenger thực tế với kiểu dáng và tính năng phù hợp",
+      "privacy": "Công cụ tập trung vào quyền riêng tư: Tất cả xử lý đều diễn ra cục bộ trong trình duyệt của bạn",
+      "free": "Truy cập miễn phí: Không yêu cầu đăng ký, không có phí ẩn"
+    },
+    "values": {
+      "title": "Giá trị của chúng tôi",
+      "accessibility": "Khả năng tiếp cận: Làm cho các công cụ chuyên nghiệp có sẵn cho mọi người",
+      "privacy": "Quyền riêng tư: Đảm bảo dữ liệu người dùng được giữ riêng tư và an toàn",
+      "quality": "Chất lượng: Duy trì tiêu chuẩn cao trong công cụ và tính năng của chúng tôi",
+      "responsibility": "Trách nhiệm: Thúc đẩy việc sử dụng công cụ một cách có đạo đức"
+    },
+    "commitment": {
+      "title": "Cam kết của chúng tôi",
+      "paragraph1": "Chúng tôi cam kết liên tục cải thiện công cụ và thêm các tính năng mới dựa trên phản hồi của người dùng. Mục tiêu của chúng tôi là cung cấp trải nghiệm tốt nhất có thể để tạo ảnh chụp tin nhắn thực tế trong khi duy trì các giá trị cốt lõi về khả năng tiếp cận, quyền riêng tư và chất lượng.",
+      "paragraph2": "Chúng tôi tin vào sự minh bạch và giao tiếp cởi mở với người dùng. Nếu bạn có bất kỳ câu hỏi, đề xuất hoặc phản hồi nào, đừng ngần ngại liên hệ với chúng tôi."
+    }
+  },
+  "Contact": {
+    "title": "Liên hệ",
+    "getInTouch": {
+      "title": "Liên hệ với chúng tôi",
+      "description": "Có câu hỏi, phản hồi hoặc đề xuất? Chúng tôi rất muốn nghe từ bạn! Hãy liên hệ qua các kênh sau:",
+      "email": "Email",
+      "github": "GitHub"
+    },
+    "responseTime": {
+      "title": "Thời gian phản hồi",
+      "description": "Chúng tôi thường phản hồi tất cả các yêu cầu trong vòng 24-48 giờ. Đối với các vấn đề khẩn cấp, vui lòng thêm \"KHẨN CẤP\" vào dòng chủ đề email."
+    },
+    "whatToInclude": {
+      "title": "Những gì cần bao gồm",
+      "description": "Mô tả rõ ràng về yêu cầu hoặc phản hồi của bạn",
+      "screenshots": "Bất kỳ ảnh chụp màn hình hoặc ví dụ liên quan",
+      "contactMethod": "Phương thức liên hệ ưa thích của bạn",
+      "requirements": "Bất kỳ yêu cầu hoặc thời hạn cụ thể nào"
+    }
   }
 }

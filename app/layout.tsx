@@ -14,8 +14,12 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: SITE_NAME,
-  description: SITE_DESCRIPTION,
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://fakemess.com"),
+  title: {
+    default: SITE_NAME,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: "Create realistic chat screenshots with our free online tools. Generate fake ChatGPT and Facebook Messenger conversations.",
 };
 
 export default async function RootLayout({

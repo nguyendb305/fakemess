@@ -1,6 +1,8 @@
 {
   "Footer": {
-    "policy": "Usage Policy"
+    "policy": "Usage Policy",
+    "about": "About",
+    "contact": "Contact"
   },
   "HomePage": {
     "title": "Fake Message Generators",
@@ -53,7 +55,9 @@
         "modernMode": "Modern",
         "activeStatus": "Active Status",
         "activeStatusPlaceholder": "Active now",
-        "messagePlaceholder": "Message"
+        "messagePlaceholder": "Message",
+        "seenStatus": "Add the seen status",
+        "seenStatusPlaceholder": "Seen yesterday"
       },
       "table2": {
         "output": "Output",
@@ -91,5 +95,52 @@
     "benefitLi4": "Online Fake ChatGPT Post maker tool works well on Windows, MAC, Linux, Chrome, Firefox, Edge, and Safari.",
     "howTo": "How to make a fake ChatGPT post?",
     "howToContent": "Open FakeGPT in your favorite browser and update the fields of content and many other from the left side of the sections. Once you like the preview of your generated fake post, use download or copy button to download the image of the post."
+  },
+  "About": {
+    "title": "About FakeMess",
+    "mission": {
+      "title": "Our Mission",
+      "paragraph1": "At FakeMess, we're dedicated to providing high-quality tools for creating realistic chat screenshots. Our platform helps content creators, educators, and designers generate authentic-looking conversations for various legitimate purposes.",
+      "paragraph2": "We believe in making professional tools accessible to everyone, which is why all our generators are completely free to use, with no hidden fees or premium features."
+    },
+    "offer": {
+      "title": "What We Offer",
+      "chatgpt": "ChatGPT Generator: Create realistic AI conversation screenshots with code block formatting and markdown support",
+      "messenger": "Facebook Messenger Generator: Generate authentic Messenger conversations with proper styling and features",
+      "privacy": "Privacy-Focused Tools: All processing happens locally in your browser",
+      "free": "Free Access: No registration required, no hidden fees"
+    },
+    "values": {
+      "title": "Our Values",
+      "accessibility": "Accessibility: Making professional tools available to everyone",
+      "privacy": "Privacy: Ensuring user data stays private and secure",
+      "quality": "Quality: Maintaining high standards in our tools and features",
+      "responsibility": "Responsibility: Promoting ethical use of our tools"
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "paragraph1": "We are committed to continuously improving our tools and adding new features based on user feedback. Our goal is to provide the best possible experience for creating realistic chat screenshots while maintaining our core values of accessibility, privacy, and quality.",
+      "paragraph2": "We believe in transparency and open communication with our users. If you have any questions, suggestions, or feedback, please don't hesitate to contact us."
+    }
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "getInTouch": {
+      "title": "Get in Touch",
+      "description": "Have questions, feedback, or suggestions? We'd love to hear from you! Feel free to reach out through any of the following channels:",
+      "email": "Email",
+      "github": "GitHub"
+    },
+    "responseTime": {
+      "title": "Response Time",
+      "description": "We typically respond to all inquiries within 24-48 hours. For urgent matters, please include \"URGENT\" in your email subject line."
+    },
+    "whatToInclude": {
+      "title": "What to Include",
+      "description": "Clear description of your inquiry or feedback",
+      "screenshots": "Any relevant screenshots or examples",
+      "contactMethod": "Your preferred contact method",
+      "requirements": "Any specific requirements or deadlines"
+    }
   }
 }
