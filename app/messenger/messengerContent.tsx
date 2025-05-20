@@ -464,6 +464,10 @@ const MessengerGenerator = () => {
             (messages[index - 1] && 
              messages[index - 1].time !== message.time);
 
+          // Check if previous message is from same sender
+          const prevMessage = index > 0 ? messages[index - 1] : null;
+          const isFromSameSender = prevMessage && prevMessage.role === message.role && prevMessage.text;
+
           // Calculate gradient position based on scroll position
           const messageContainer = document.querySelector('.overflow-y-auto');
           const containerHeight = messageContainer?.clientHeight || 323;
@@ -488,7 +492,7 @@ const MessengerGenerator = () => {
           const showAvatar = isLastInSequence(messages, index);
 
           return (
-            <div key={index}>
+            <div key={index} className={!isFromSameSender && index > 0 ? "mt-2" : ""}>
               {showTime && message.time && (
                 <div className="flex justify-center my-2">
                   <span className="text-xs text-gray-500 bg-white px-2 py-1 rounded-full font-medium">
