@@ -14,7 +14,6 @@ No more self-texting! FakeMess lets you create both sides of a chat in one place
 
 - **ChatGPT Generator**
   - Create realistic ChatGPT conversation screenshots
-  - Support for code blocks and markdown
   - Customizable user and AI messages
   - Dark/Light mode support
 
