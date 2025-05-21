@@ -3,7 +3,7 @@
 A free, open-source web application for creating realistic chat screenshots. Create fake ChatGPT conversations and Facebook Messenger chats with ease.
 
 ![Behind the Scenes Meme](https://github.com/nguyendb305/fakemess/blob/main/public/self-texting-behind-the-scene.jpg)  
-###No more self-texting! FakeMess lets you create both sides of a chat in one place.
+**No more self-texting! FakeMess lets you create both sides of a chat in one place.**
 
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
