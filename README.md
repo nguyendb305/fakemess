@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FakeMess - Fake Message Generator
 
-## Getting Started
+A free, open-source web application for creating realistic chat screenshots. Create fake ChatGPT conversations and Facebook Messenger chats with ease.
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
+## 🌟 Features
+
+- **ChatGPT Generator**
+  - Create realistic ChatGPT conversation screenshots
+  - Support for code blocks and markdown
+  - Customizable user and AI messages
+  - Dark/Light mode support
+
+- **Messenger Generator**
+  - Generate authentic Facebook Messenger screenshots
+  - Customizable chat bubbles and timestamps
+  - Multiple message types support
+  - Realistic UI elements
+
+- **Additional Features**
+  - Multi-language support (English, Vietnamese)
+  - Responsive design
+  - Dark/Light mode
+  - No data storage (privacy-focused)
+  - Free to use
+
+## 🚀 Live Demo
+
+Visit [FakeMess](https://fakemess.com) to try it out!
+
+## 🛠️ Tech Stack
+
+- [Next.js 14](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [next-intl](https://next-intl-docs.vercel.app/) - Internationalization
+- [html2canvas](https://html2canvas.hertzen.com/) - Screenshot generation
+- [Lucide Icons](https://lucide.dev/) - Icons
+
+## 🏗️ Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/nguyenbdangg/fakegpt.git
+cd fakegpt
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Create a `.env.local` file:
+```env
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Run the development server:
+```bash
+npm run dev
+```
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ChatGPT Generator
+1. Navigate to `/chatgpt`
+2. Enter your conversation
+3. Customize the appearance
+4. Click "Generate Screenshot"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Messenger Generator
+1. Navigate to `/messenger`
+2. Add messages to the conversation
+3. Customize the chat appearance
+4. Click "Generate Screenshot"
 
-## Deploy on Vercel
+## 🌐 Internationalization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application supports multiple languages:
+- English (default)
+- Vietnamese
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To add a new language:
+1. Add the locale to `i18n/routing.ts`
+2. Create a new messages file in `messages/`
+3. Add translations for all keys
+
+## ⚠️ Disclaimer
+
+This tool is intended for:
+- Educational purposes
+- Content creation
+- Design mockups
+- Testing and development
+
+Please use responsibly and ethically. Do not use this tool to:
+- Create misleading content
+- Impersonate others
+- Spread misinformation
+- Engage in fraudulent activities
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) first.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📧 Contact
+
+- Email: nguyenbdangg@gmail.com
+- GitHub: [@nguyenbdangg](https://github.com/nguyenbdangg)
+- Website: [FakeMess](https://fakemess.com)
+
+## 🙏 Acknowledgments
+
+- [Next.js](https://nextjs.org/) for the amazing framework
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS
+- [next-intl](https://next-intl-docs.vercel.app/) for internationalization
+- All contributors and users of the project

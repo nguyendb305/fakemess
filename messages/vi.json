@@ -30,25 +30,25 @@
       "privacyNote": "Tất cả trong trình duyệt của bạn. An toàn, riêng tư và dễ sử dụng!"
     },
     "chatgpt": {
-      "title": "Fake ChatGPT Messages",
-      "description": "Công cụ miễn phí tạo tin nhắn ChatGPT giả. Vui lòng đọc kỹ chính sách sử dụng trước khi dùng.",
+      "title": "Trình Tạo Tin Nhắn ChatGPT Giả",
+      "description": "Trình tạo tin nhắn ChatGPT giả. Vui lòng đọc chính sách sử dụng trước khi dùng.",
       "table1": {
-        "input": "Sửa",
-        "description": "Thêm nội dung tin nhắn và câu trả lời của ChatGPT",
+        "input": "Nhập dữ liệu",
+        "description": "Thêm tin nhắn cho người dùng và ChatGPT",
         "message": "Tin nhắn",
         "addmsg": "Thêm tin nhắn"
       },
       "table2": {
         "output": "Kết quả",
         "messagePlaceholder": "Tin nhắn",
-        "guide": "Bạn có thể Tải ảnh về hoặc Sao chép vào bộ nhớ tạm",
-        "downloadBtn": "Tải ảnh",
-        "copyBtn": "Copy",
+        "guide": "Tải xuống hoặc sao chép hình ảnh này để đăng lên mạng xã hội",
+        "downloadBtn": "Tải xuống",
+        "copyBtn": "Sao chép",
         "copyMsg": "Đã sao chép"
       }
     },
     "messenger": {
-      "title": "Fake Messenger",
+      "title": "Fake Facebook Messenger Chat",
       "description": "Công cụ miễn phí tạo tin nhắn Messenger giả. Vui lòng đọc kỹ chính sách sử dụng trước khi dùng.",
       "table1": {
         "input": "Sửa",
@@ -193,5 +193,366 @@
       "tạo mẫu tin nhắn"
     ],
     "ogImageAlt": "FakeMess - Trình Tạo Tin Nhắn Giả"
+  },
+  "chatgptContent": {
+    "title": "Fake ChatGPT Generator - Tạo Ảnh Chụp Cuộc Hội Thoại AI Thực Tế",
+    "whatIs": {
+      "title": "Fake ChatGPT Generator là gì?",
+      "description1": "Fake ChatGPT Generator là một công cụ đơn giản cho phép bạn tạo ảnh chụp cuộc hội thoại ChatGPT trông thực tế. Cho dù bạn là người tạo nội dung, nhà giáo dục hay nhà thiết kế, công cụ của chúng tôi giúp bạn tạo ra các cuộc hội thoại AI trông chân thực một cách dễ dàng.",
+      "description2": "Công cụ của chúng tôi sao chép hoàn hảo giao diện đặc trưng của ChatGPT, bao gồm phản hồi AI màu xanh lá đặc trưng, kiểu tin nhắn người dùng và bố cục tổng thể. Sự chú ý đến chi tiết này đảm bảo các cuộc hội thoại được tạo ra trông chân thực và chuyên nghiệp.",
+      "description3": "Không giống như các công cụ tạo hội thoại khác, công cụ của chúng tôi tập trung đặc biệt vào các yếu tố thiết kế độc đáo của ChatGPT, giúp dễ dàng tạo ra các cuộc hội thoại trông thực tế."
+    },
+    "whyUse": {
+      "title": "Tại sao nên sử dụng Fake ChatGPT Generator của chúng tôi?",
+      "features": {
+        "authentic": "Thiết kế chân thực: Công cụ của chúng tôi sao chép chính xác giao diện ChatGPT, bao gồm phản hồi AI màu xanh lá đặc trưng và kiểu tin nhắn phù hợp.",
+        "efficient": "Tiết kiệm thời gian: Tạo ảnh chụp ChatGPT trông thực tế trong vài phút thay vì chỉnh sửa hình ảnh thủ công.",
+        "browser": "Dựa trên trình duyệt: Truy cập công cụ của chúng tôi trực tiếp từ trình duyệt web - không cần tải xuống hay cài đặt phần mềm.",
+        "privacy": "Tập trung vào quyền riêng tư: Tất cả xử lý đều diễn ra cục bộ trong trình duyệt của bạn. Chúng tôi không lưu trữ cuộc hội thoại hay dữ liệu cá nhân của bạn.",
+        "versatile": "Sử dụng linh hoạt: Hoàn hảo cho nội dung giáo dục, bài đăng mạng xã hội, tài liệu tiếp thị và mô hình thiết kế."
+      }
+    },
+    "keyFeatures": {
+      "title": "Tính năng chính",
+      "features": {
+        "interface": "Giao diện chân thực: Sao chép chính xác thiết kế của ChatGPT, bao gồm phản hồi AI màu xanh lá đặc trưng và kiểu tin nhắn người dùng",
+        "formatting": {
+          "title": "Nhập văn bản đơn giản:",
+          "items": [
+            "Nhập văn bản dễ dàng cho cả tin nhắn người dùng và AI",
+            "Khoảng cách và căn chỉnh tin nhắn phù hợp",
+            "Hỗ trợ cuộc hội thoại dài"
+          ]
+        },
+        "conversation": {
+          "title": "Tính năng hội thoại:",
+          "items": [
+            "Thêm nhiều tin nhắn cho cả người dùng và AI",
+            "Tạo luồng hội thoại tự nhiên",
+            "Xuất dưới dạng hình ảnh để dễ dàng chia sẻ"
+          ]
+        },
+        "export": "Tùy chọn xuất: Tải xuống cuộc hội thoại của bạn dưới dạng hình ảnh hoặc sao chép vào bảng nhớ tạm"
+      }
+    },
+    "howToUse": {
+      "title": "Cách sử dụng",
+      "steps": {
+        "start": {
+          "title": "Bắt đầu cuộc hội thoại:",
+          "description": "Bắt đầu bằng cách thêm tin nhắn đầu tiên. Bạn có thể chọn giữa phản hồi của người dùng và AI."
+        },
+        "add": {
+          "title": "Thêm tin nhắn:",
+          "description": "Với mỗi tin nhắn, bạn có thể:",
+          "items": [
+            "Chọn giữa vai trò người dùng và AI",
+            "Nhập văn bản tin nhắn của bạn",
+            "Thêm nhiều tin nhắn để xây dựng cuộc hội thoại"
+          ]
+        },
+        "format": {
+          "title": "Tạo cuộc hội thoại của bạn:",
+          "description": "Xây dựng cuộc hội thoại tự nhiên bằng cách thêm tin nhắn qua lại giữa người dùng và AI."
+        },
+        "export": {
+          "title": "Xuất tác phẩm của bạn:",
+          "description": "Sử dụng các nút tải xuống hoặc sao chép để lưu cuộc hội thoại của bạn dưới dạng hình ảnh."
+        }
+      }
+    },
+    "bestPractices": {
+      "title": "Mẹo sử dụng",
+      "sections": {
+        "structure": {
+          "title": "Cấu trúc tin nhắn:",
+          "items": [
+            "Sử dụng ngôn ngữ tự nhiên trong tin nhắn người dùng",
+            "Giữ phản hồi AI rõ ràng và tập trung",
+            "Duy trì luồng hội thoại thực tế",
+            "Sử dụng độ dài tin nhắn phù hợp"
+          ]
+        },
+        "formatting": {
+          "title": "Mẹo hội thoại:",
+          "items": [
+            "Giữ tin nhắn ngắn gọn và tập trung",
+            "Sử dụng khoảng cách phù hợp giữa các tin nhắn",
+            "Tạo đối thoại qua lại tự nhiên",
+            "Duy trì giọng điệu nhất quán xuyên suốt"
+          ]
+        }
+      
+      }
+    },
+    "useCases": {
+      "title": "Khi nào nên sử dụng phần mềm tạo tin nhắn ChatGPT giả",
+      "cases": {
+        "education": "Nội dung giáo dục: Tạo hướng dẫn và tài liệu để minh họa khả năng của ChatGPT",
+        "social": "Mạng xã hội: Tạo bài đăng hấp dẫn thể hiện tương tác AI",
+        "documentation": "Tài liệu: Tạo ví dụ về cuộc hội thoại AI để tham khảo",
+        "mockups": "Mô hình thiết kế: Tạo giao diện ChatGPT thực tế cho nguyên mẫu ứng dụng hoặc trang web",
+        "content": "Tạo nội dung: Phát triển bài đăng blog và bài viết có tính năng cuộc hội thoại AI"
+      }
+    },
+    "privacy": {
+      "title": "Quyền riêng tư và sử dụng",
+      "description1": "Fake ChatGPT Generator của chúng tôi được thiết kế cho các mục đích hợp pháp như tạo nội dung, minh họa giáo dục và mô hình thiết kế. Tất cả xử lý đều được thực hiện cục bộ trong trình duyệt của bạn, và chúng tôi không lưu trữ bất kỳ dữ liệu hoặc hình ảnh được tạo ra nào của bạn.",
+      "description2": "Chúng tôi coi trọng quyền riêng tư và đã thực hiện một số biện pháp để bảo vệ dữ liệu của bạn:",
+      "measures": [
+        "Tất cả xử lý diễn ra cục bộ trong trình duyệt của bạn",
+        "Không có dữ liệu nào được gửi đến máy chủ của chúng tôi",
+        "Hình ảnh được tạo ra không được lưu trữ",
+        "Không sử dụng cookie hoặc cơ chế theo dõi"
+      ],
+      "description3": "Vui lòng sử dụng công cụ này một cách có trách nhiệm và tuân theo điều khoản dịch vụ của OpenAI. Không sử dụng hình ảnh được tạo ra để gây hiểu lầm hoặc lừa dối người khác. Luôn tôn trọng quyền riêng tư và quyền sở hữu trí tuệ khi tạo và chia sẻ nội dung."
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "questions": {
+        "different": {
+          "question": "Điều gì làm cho fake ChatGPT generator này khác biệt?",
+          "answer": "Công cụ của chúng tôi nổi bật nhờ cung cấp việc sao chép giao diện ChatGPT chân thực nhất, làm cho nó lý tưởng để tạo ra các cuộc hội thoại trông thực tế."
+        },
+        "free": {
+          "question": "Công cụ này có miễn phí không?",
+          "answer": "Có, Fake ChatGPT Generator của chúng tôi hoàn toàn miễn phí. Không có phí ẩn hoặc tính năng cao cấp."
+        },
+        "account": {
+          "question": "Tôi có cần tạo tài khoản không?",
+          "answer": "Không cần tài khoản. Bạn có thể bắt đầu tạo ảnh chụp ChatGPT ngay lập tức mà không cần đăng ký."
+        },
+        "commercial": {
+          "question": "Tôi có thể sử dụng hình ảnh được tạo ra cho mục đích thương mại không?",
+          "answer": "Có, bạn có thể sử dụng hình ảnh được tạo ra cho mục đích thương mại, nhưng vui lòng đảm bảo tuân thủ điều khoản dịch vụ của OpenAI và tôn trọng quyền sở hữu trí tuệ."
+        },
+        "code": {
+          "question": "Công cụ có hỗ trợ định dạng đặc biệt không?",
+          "answer": "Công cụ tập trung vào việc tạo ra các cuộc hội thoại trông chân thực với đầu vào văn bản đơn giản. Nó duy trì phong cách trực quan của ChatGPT trong khi giữ giao diện dễ sử dụng."
+        },
+        "messages": {
+          "question": "Tôi có thể thêm bao nhiêu tin nhắn vào một cuộc hội thoại?",
+          "answer": "Bạn có thể thêm nhiều tin nhắn để tạo một cuộc hội thoại hoàn chỉnh. Công cụ được thiết kế để xử lý cả trao đổi ngắn và dài trong khi vẫn duy trì khả năng đọc."
+        }
+      }
+    }
+  },
+  "messengerContent": {
+    "title": "Trình Tạo Messenger Giả - Tạo Ảnh Chụp Facebook Messenger Thực Tế",
+    "whatIs": {
+      "title": "Trình Tạo Messenger Giả là gì?",
+      "description1": "Trình Tạo Messenger Giả là một công cụ trực tuyến miễn phí cho phép bạn tạo ảnh chụp Facebook Messenger trông thực tế. Cho dù bạn cần tạo nội dung cho mạng xã hội, mô hình thiết kế hay mục đích giáo dục, công cụ của chúng tôi giúp bạn tạo ra các cuộc hội thoại Messenger trông chân thực một cách dễ dàng.",
+      "description2": "Công cụ của chúng tôi hoàn hảo cho người tạo nội dung, quản lý mạng xã hội, nhà thiết kế và nhà giáo dục cần tạo cuộc hội thoại Messenger thực tế cho nhiều mục đích khác nhau. Với giao diện thân thiện và tính năng tiên tiến, bạn có thể nhanh chóng tạo ra các ảnh chụp chuyên nghiệp trông giống hệt cuộc trò chuyện Facebook Messenger thực tế.",
+      "description3": "Không giống như các công cụ tạo chat giả khác, công cụ của chúng tôi tập trung đặc biệt vào các yếu tố thiết kế độc đáo của Facebook Messenger, bao gồm gradient màu xanh đặc trưng, hình dạng bong bóng tin nhắn và bố cục tổng thể. Sự chú ý đến chi tiết này đảm bảo các cuộc hội thoại được tạo ra trông chân thực và chuyên nghiệp."
+    },
+    "whyUse": {
+      "title": "Tại sao nên sử dụng Trình Tạo Messenger Giả của chúng tôi?",
+      "features": {
+        "professional": "Thiết kế chuyên nghiệp:",
+        "professional1": " Công cụ của chúng tôi sao chép chính xác thiết kế mới nhất của Facebook Messenger, bao gồm giao diện hiện đại với màu gradient, khoảng cách phù hợp và bong bóng tin nhắn chân thực.",
+        "efficient": "Tiết kiệm thời gian:",
+        "efficient1": " Tạo ảnh chụp Messenger thực tế trong vài phút thay vì chỉnh sửa hình ảnh thủ công hoặc sử dụng phần mềm thiết kế phức tạp.",
+        "browser": "Không cần cài đặt:",
+        "browser1": " Truy cập công cụ của chúng tôi trực tiếp từ trình duyệt web - không cần tải xuống hay cài đặt phần mềm.",
+        "privacy": "Tập trung vào quyền riêng tư:",
+        "privacy1": " Tất cả xử lý đều diễn ra cục bộ trong trình duyệt của bạn. Chúng tôi không lưu trữ cuộc hội thoại hay dữ liệu cá nhân của bạn.",
+        "versatile": "Hoàn hảo cho nhiều trường hợp sử dụng:",
+        "versatile1": " Lý tưởng cho nội dung mạng xã hội, tài liệu tiếp thị, minh họa giáo dục và mô hình thiết kế."
+      }
+    },
+    "keyFeatures": {
+      "title": "Tính năng chính",
+      "features": {
+        "uiModes": "Hai chế độ giao diện:",
+        "uiModes1": " Chọn giữa giao diện Messenger Cổ điển và Hiện đại phù hợp với nhu cầu của bạn",
+        "messages": "Tin nhắn có thể tùy chỉnh:",
+        "messages1": " Thêm tối đa 12 tin nhắn, luân phiên giữa vai trò người dùng và bạn bè",
+        "styling": {
+          "title": "Kiểu dáng thực tế:",
+          "items": [
+            "Hình dạng bong bóng tin nhắn chân thực với bo góc phù hợp",
+            "Màu gradient cho tin nhắn người dùng và biểu tượng",
+            "Khoảng cách phù hợp giữa tin nhắn và ảnh đại diện",
+            "Hỗ trợ tin nhắn dài với tự động xuống dòng"
+          ]
+        },
+        "profile": {
+          "title": "Tùy chỉnh hồ sơ:",
+          "items": [
+            "Tải lên ảnh đại diện tùy chỉnh cho cả người dùng và bạn bè",
+            "Tùy chỉnh tên bạn bè",
+            "Bật/tắt và tùy chỉnh trạng thái hoạt động"
+          ]
+        },
+        "messageFeatures": {
+          "title": "Tính năng tin nhắn:",
+          "items": [
+            "Thêm thời gian cho tin nhắn",
+            "Bao gồm trạng thái \"Đã xem\" sau tin nhắn người dùng cuối cùng",
+            "Hỗ trợ nhiều tin nhắn từ cùng một người gửi"
+          ]
+        },
+        "export": "Tùy chọn xuất:",
+        "export1": " Tải xuống cuộc hội thoại của bạn dưới dạng hình ảnh hoặc sao chép vào bảng nhớ tạm"
+      }
+    },
+    "advancedCustomization": {
+      "title": "Tùy chọn tùy chỉnh nâng cao",
+      "features": {
+        "messageStyling": {
+          "title": "Kiểu dáng tin nhắn:",
+          "items": [
+            "Bo góc động thích ứng với chuỗi tin nhắn",
+            "Màu gradient chân thực phù hợp với thiết kế của Facebook",
+            "Căn chỉnh và khoảng cách văn bản phù hợp",
+            "Hỗ trợ tin nhắn dài với tự động xuống dòng",
+            "Thời gian có thể tùy chỉnh cho luồng hội thoại thực tế"
+          ]
+        },
+        "profileManagement": {
+          "title": "Quản lý hồ sơ:",
+          "items": [
+            "Tải lên ảnh đại diện tùy chỉnh ở nhiều định dạng",
+            "Hiển thị tên bạn bè có thể điều chỉnh",
+            "Chỉ báo trạng thái hoạt động có thể tùy chỉnh",
+            "Hỗ trợ kích thước và vị trí ảnh đại diện khác nhau"
+          ]
+        },
+        "uiCustomization": {
+          "title": "Tùy chỉnh giao diện:",
+          "items": [
+            "Chuyển đổi giữa giao diện Messenger Cổ điển và Hiện đại",
+            "Kích thước container có thể điều chỉnh",
+            "Phần đầu và khu vực nhập liệu có thể tùy chỉnh",
+            "Thiết kế responsive hoạt động trên mọi thiết bị"
+          ]
+        }
+      }
+    },
+    "howToUse": {
+      "title": "Cách sử dụng",
+      "steps": {
+        "uiMode": {
+          "title": "Chọn chế độ giao diện:",
+          "description": "Chọn giữa giao diện Messenger Cổ điển và Hiện đại bằng các nút chuyển đổi chế độ."
+        },
+        "profiles": {
+          "title": "Thiết lập hồ sơ:",
+          "description": "Nhập tên bạn bè, tải lên ảnh đại diện và tùy chỉnh trạng thái hoạt động nếu muốn."
+        },
+        "conversation": {
+          "title": "Tạo cuộc hội thoại:",
+          "description": "Thêm tin nhắn bằng các trường nhập liệu. Với mỗi tin nhắn, bạn có thể:",
+          "items": [
+            "Chọn giữa vai trò người dùng và bạn bè",
+            "Nhập văn bản tin nhắn",
+            "Thêm thời gian",
+            "Thêm tối đa 12 tin nhắn"
+          ]
+        },
+        "seenStatus": {
+          "title": "Tùy chỉnh trạng thái đã xem:",
+          "description": "Bật/tắt trạng thái đã xem và tùy chỉnh văn bản xuất hiện sau tin nhắn người dùng cuối cùng."
+        },
+        "export": {
+          "title": "Xuất tác phẩm của bạn:",
+          "description": "Sử dụng các nút tải xuống hoặc sao chép để lưu cuộc hội thoại của bạn dưới dạng hình ảnh."
+        }
+      }
+    },
+    "bestPractices": {
+      "title": "Cách tốt nhất để tạo cuộc hội thoại trông thực tế",
+      "sections": {
+        "timing": {
+          "title": "Thời gian tin nhắn:",
+          "items": [
+            "Sử dụng khoảng thời gian thực tế giữa các tin nhắn",
+            "Xem xét múi giờ khi đặt thời gian",
+            "Thêm độ trễ phù hợp cho tin nhắn dài",
+            "Sử dụng trạng thái \"Đã xem\" một cách tự nhiên sau tin nhắn người dùng"
+          ]
+        },
+        "flow": {
+          "title": "Luồng hội thoại:",
+          "items": [
+            "Duy trì mẫu đối thoại tự nhiên",
+            "Sử dụng độ dài tin nhắn phù hợp cho từng ngữ cảnh",
+            "Bao gồm chỉ báo đang nhập khi cần thiết",
+            "Xem xét ngữ cảnh và giọng điệu hội thoại"
+          ]
+        },
+        "visual": {
+          "title": "Yếu tố trực quan:",
+          "items": [
+            "Sử dụng ảnh đại diện chất lượng cao",
+            "Duy trì kích thước ảnh đại diện nhất quán",
+            "Áp dụng khoảng cách phù hợp giữa các tin nhắn",
+            "Đảm bảo văn bản dễ đọc và được định dạng đúng"
+          ]
+        }
+      }
+    },
+    "tips": {
+      "title": "Mẹo cho kết quả tốt nhất",
+      "items": [
+        "Sử dụng ảnh đại diện thực tế để cuộc hội thoại trông chân thực hơn",
+        "Thêm thời gian phù hợp để tạo luồng hội thoại tự nhiên",
+        "Xem xét chuỗi tin nhắn để duy trì cuộc hội thoại logic",
+        "Sử dụng chế độ giao diện Hiện đại cho giao diện Messenger mới nhất",
+        "Giữ tin nhắn ngắn gọn để dễ đọc hơn trong ảnh chụp"
+      ]
+    },
+    "useCases": {
+      "title": "Trường hợp sử dụng phổ biến",
+      "cases": {
+        "social": "Nội dung mạng xã hội:",
+        "social1": " Tạo bài đăng, câu chuyện hoặc quảng cáo hấp dẫn có tính năng cuộc hội thoại Messenger",
+        "marketing": "Tài liệu tiếp thị:",
+        "marketing1": " Thiết kế nội dung quảng cáo, chiến dịch email hoặc yếu tố trang web với ảnh chụp chat thực tế",
+        "education": "Nội dung giáo dục:",
+        "education1": " Tạo hướng dẫn, tài liệu hoặc tài liệu đào tạo minh họa tính năng Messenger",
+        "mockups": "Mô hình thiết kế:",
+        "mockups1": " Tạo giao diện chat thực tế cho nguyên mẫu ứng dụng hoặc trang web",
+        "content": "Tạo nội dung:",
+        "content1": " Phát triển bài đăng blog, bài viết hoặc nội dung mạng xã hội có tính năng cuộc hội thoại Messenger"
+      }
+    },
+    "privacy": {
+      "title": "Quyền riêng tư và sử dụng",
+      "description1": "Trình Tạo Messenger Giả của chúng tôi được thiết kế cho các mục đích hợp pháp như tạo nội dung, mô hình thiết kế và minh họa giáo dục. Tất cả xử lý đều được thực hiện cục bộ trong trình duyệt của bạn, và chúng tôi không lưu trữ bất kỳ dữ liệu hoặc hình ảnh được tạo ra nào của bạn.",
+      "description2": "Chúng tôi coi trọng quyền riêng tư và đã thực hiện một số biện pháp để bảo vệ dữ liệu của bạn:",
+      "measures": [
+        "Tất cả xử lý diễn ra cục bộ trong trình duyệt của bạn",
+        "Không có dữ liệu nào được gửi đến máy chủ của chúng tôi",
+        "Hình ảnh được tạo ra không được lưu trữ",
+        "Không sử dụng cookie hoặc cơ chế theo dõi"
+      ],
+      "description3": "Vui lòng sử dụng công cụ này một cách có trách nhiệm và tuân theo điều khoản dịch vụ của Facebook. Không sử dụng hình ảnh được tạo ra để gây hiểu lầm hoặc lừa dối người khác. Luôn tôn trọng quyền riêng tư và quyền sở hữu trí tuệ khi tạo và chia sẻ nội dung."
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "questions": {
+        "free": {
+          "question": "Công cụ này có miễn phí không?",
+          "answer": "Có, Trình Tạo Messenger Giả của chúng tôi hoàn toàn miễn phí. Không có phí ẩn hoặc tính năng cao cấp."
+        },
+        "account": {
+          "question": "Tôi có cần tạo tài khoản không?",
+          "answer": "Không cần tài khoản. Bạn có thể bắt đầu tạo ảnh chụp Messenger ngay lập tức mà không cần đăng ký."
+        },
+        "commercial": {
+          "question": "Tôi có thể sử dụng hình ảnh được tạo ra cho mục đích thương mại không?",
+          "answer": "Có, bạn có thể sử dụng hình ảnh được tạo ra cho mục đích thương mại, nhưng vui lòng đảm bảo tuân thủ điều khoản dịch vụ của Facebook và tôn trọng quyền sở hữu trí tuệ."
+        },
+        "formats": {
+          "question": "Công cụ hỗ trợ những định dạng hình ảnh nào cho ảnh đại diện?",
+          "answer": "Công cụ của chúng tôi hỗ trợ các định dạng hình ảnh phổ biến bao gồm JPG, PNG và WebP. Để có kết quả tốt nhất, hãy sử dụng hình ảnh vuông với độ phân giải tối thiểu 200x200 pixel."
+        },
+        "messages": {
+          "question": "Tôi có thể thêm bao nhiêu tin nhắn vào một cuộc hội thoại?",
+          "answer": "Bạn có thể thêm tối đa 12 tin nhắn trong một cuộc hội thoại, đủ cho hầu hết các trường hợp sử dụng trong khi vẫn duy trì bố cục sạch sẽ và dễ đọc."
+        }
+      }
+    }
   }
 }

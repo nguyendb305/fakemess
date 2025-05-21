@@ -52,7 +52,7 @@ export default function Contact() {
                     </a>
 
                     <a 
-                      href="https://github.com/nguyenbdangg/fakegpt"
+                      href="https://github.com/nguyendb305/fakemess"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow"
