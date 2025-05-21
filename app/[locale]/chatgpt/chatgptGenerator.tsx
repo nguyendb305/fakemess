@@ -98,7 +98,7 @@ const ChatGPTGenerator = () => {
       <div className="bg-white text-black">
         <div className="container p-4">
           <div className="mb-4">
-            <Link href="/" className="text-blue-600 hover:underline">
+            <Link href={`/${locale}`} className="text-blue-600 hover:underline">
               ← Back to generators
             </Link>
           </div>

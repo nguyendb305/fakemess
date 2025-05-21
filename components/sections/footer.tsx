@@ -4,6 +4,7 @@ import { useLocale, useTranslations } from "next-intl";
 const Footer = () => {
   const t = useTranslations("Footer");
   const locale = useLocale();
+
   return (
     <footer className="border-t drop-shadow-sm mt-4 mx-4 py-4">
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
@@ -12,19 +13,19 @@ const Footer = () => {
         </p>
         <nav className="flex flex-wrap justify-center gap-4 sm:gap-6">
           <Link 
-            href="/about" 
+            href={`/${locale}/about`} 
             className="hover:text-primary transition-colors"
           >
             {t("about")}
           </Link>
           <Link 
-            href="/contact" 
+            href={`/${locale}/contact`} 
             className="hover:text-primary transition-colors"
           >
             {t("contact")}
           </Link>
           <Link 
-            href="/policy" 
+            href={`/${locale}/policy`} 
             className="hover:text-primary transition-colors"
           >
             {t("policy")}

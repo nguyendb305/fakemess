@@ -2,12 +2,13 @@
 import LocaleSwitcher from "@/components/LocaleSwitcher";
 import Link from "next/link";
 import Image from "next/image";
-
+import { useLocale } from "next-intl";
 const Navbar = () => {
+  const locale = useLocale();
   return (
     <nav className="sticky">
       <div className="flex justify-between items-center p-4">
-        <Link href="/" className="text-xl font-bold flex items-center">
+        <Link href={`/${locale}`} className="text-xl font-bold flex items-center">
           <Image
             src="/icon-purple.png"
             alt="fakegpt-logo"
